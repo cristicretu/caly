@@ -12,6 +12,9 @@
 		28A2E9812B1E4276007B5299 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A2E9802B1E4276007B5299 /* Item.swift */; };
 		28A2E9832B1E4277007B5299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A2E9822B1E4277007B5299 /* Assets.xcassets */; };
 		28A2E9862B1E4277007B5299 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A2E9852B1E4277007B5299 /* Preview Assets.xcassets */; };
+		28A2E98E2B1E4366007B5299 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A2E98D2B1E4366007B5299 /* Day.swift */; };
+		28A2E9912B1E43D9007B5299 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A2E9902B1E43D9007B5299 /* DayView.swift */; };
+		28A2E9932B1E43EE007B5299 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A2E9922B1E43EE007B5299 /* WeekView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		28A2E9802B1E4276007B5299 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		28A2E9822B1E4277007B5299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28A2E9852B1E4277007B5299 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28A2E98D2B1E4366007B5299 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		28A2E9902B1E43D9007B5299 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		28A2E9922B1E43EE007B5299 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,8 @@
 			children = (
 				28A2E97C2B1E4276007B5299 /* calyApp.swift */,
 				28A2E97E2B1E4276007B5299 /* ContentView.swift */,
+				28A2E98F2B1E43D2007B5299 /* View */,
+				28A2E98C2B1E435E007B5299 /* Model */,
 				28A2E9802B1E4276007B5299 /* Item.swift */,
 				28A2E9822B1E4277007B5299 /* Assets.xcassets */,
 				28A2E9842B1E4277007B5299 /* Preview Content */,
@@ -68,6 +76,23 @@
 				28A2E9852B1E4277007B5299 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28A2E98C2B1E435E007B5299 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28A2E98D2B1E4366007B5299 /* Day.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28A2E98F2B1E43D2007B5299 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28A2E9902B1E43D9007B5299 /* DayView.swift */,
+				28A2E9922B1E43EE007B5299 /* WeekView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A2E9932B1E43EE007B5299 /* WeekView.swift in Sources */,
 				28A2E97F2B1E4276007B5299 /* ContentView.swift in Sources */,
+				28A2E9912B1E43D9007B5299 /* DayView.swift in Sources */,
 				28A2E9812B1E4276007B5299 /* Item.swift in Sources */,
+				28A2E98E2B1E4366007B5299 /* Day.swift in Sources */,
 				28A2E97D2B1E4276007B5299 /* calyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
